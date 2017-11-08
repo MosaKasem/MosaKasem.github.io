@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-font-size:   16px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     30px !default;
+
+$text-color:       #000000 !default;
+$background-color: #bbbbbb !default;
+$brand-color:      #242424 !default;
+
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+
+// Width of the content area
+$content-width:    800px !default;
+
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+
+//my code
+$translucent-white: rgba(255, 255, 255, 0.205);
+$colorForText: #c2c2c2;
+$background-text-color: #200b0b;
+$padd: 5px;
+
+.banner {
+  font-family: 'Pacifico', cursive;
+  height: 400px;
+  background-image: url("lemonade.jpg");
+  border : {
+    top: 4px solid black;
+    bottom: 4px solid black;
+	}
+  
+  .slogan {
+    background-color: $translucent-white;
+  	position: absolute;
+  	border: 4px solid black;
+  	top: 200px;
+  	left: 25%;
+  	width: 50%;
+    height: 200px;
+    margin-top: 150px;
+    
+    span {
+  		position: absolute;
+  		text-align: center;
+  		line-height: 200px;
+		}
+	}
+}
+ul, ol, li {
+  margin-right: 0;
+  margin-left: 320px;
+  list-style: none;
+  color: yellow;
+}
+h3 {
+  float: left;
+}
+cite {
+  color: $colorForText;
+  background-color: $background-text-color;
+}
+mark {
+  padding: $padd;
+  color: black;
+  background-color: $colorForText;
+}
+hr {
+  padding: $padd;
+  margin: 50px;
+}
+// my code ends here
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import
+  "minima/base",
+  "minima/layout",
+  "minima/syntax-highlighting"
+;
