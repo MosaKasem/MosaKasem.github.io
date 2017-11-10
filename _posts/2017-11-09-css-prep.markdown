@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "CSS preprocessors"
+date:   2017-11-08 00:00:00 -0600
+categories: jekyll update
+---
+# What do you think of pre-compiling your CSS?
+
+1. Compare to regular css
+2. Which techniques did you use?
+3. Pros and cons?
+
+**1a.** It's exactly the same as css, only you store values in a variable that starts with the dollar sign, and you link those variables to multiple css codes of your choice.
+
+**2a.** border, background, color (may have changed some due to error)
+
+**3a.** 

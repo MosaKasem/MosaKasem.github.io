@@ -33,15 +33,41 @@ $on-laptop:        800px !default;
 // }
 
 //my code
+@mixin for-large-text {
+  font: {
+    font-family: Arial;
+    size: 180;
+    font-weight: bold;
+  }
+}
+$size-xsmall: 2px;
 $translucent-white: rgba(255, 255, 255, 0.205);
 $colorForText: #c2c2c2;
-$background-text-color: #200b0b;
-$padd: 5px;
-
+$border-style: 1px solid rgba(0, 126, 112, 0.401);
+$my-font-stack: Helvetica, sans-serif;
+p {
+  color: #191919bf;
+}
+h3 {
+  text-align: center;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  background-color: $translucent-white;
+  font-family: $my-font-stack;
+  color: rgba(41, 0, 0, 0.507);
+}
+h1 {
+  text-align: center;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  background-color: $translucent-white;
+  font-family: $my-font-stack;
+  color: rgba(41, 0, 0, 0.507);
+}
 .banner {
   font-family: 'Pacifico', cursive;
   height: 400px;
-  background-image: url("lemonade.jpg");
+  text-align: center;
   border : {
     top: 4px solid black;
     bottom: 4px solid black;
@@ -58,34 +84,19 @@ $padd: 5px;
     margin-top: 150px;
     
     span {
-  		position: absolute;
-  		text-align: center;
-  		line-height: 200px;
+      text-align: center;
+  		line-height: 50px;
 		}
 	}
 }
-ul, ol, li {
-  margin-right: 0;
-  margin-left: 320px;
-  list-style: none;
-  color: yellow;
-}
-h3 {
-  float: left;
-}
 cite {
   color: $colorForText;
-  background-color: $background-text-color;
 }
 mark {
-  padding: $padd;
   color: black;
   background-color: $colorForText;
 }
-hr {
-  padding: $padd;
-  margin: 50px;
-}
+
 // my code ends here
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
