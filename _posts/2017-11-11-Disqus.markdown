@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Comment Implementation"
+date:   2017-11-11 03:12:11 -0600
+categories: jekyll update
+---
+
+### How did you implements comments to blog posts
+
+1. Opened browser
+2. Address Disqus.com
+3. Logged in
+4. Opted install
+5. Opted jekyll
+6. Got the code
+7. Pasted it in post.html
+
+The most irritating thing which is neither mentioned on google or jekyll DOCS, is in order to have this on every page, one had to copy and paste the post.html file from _layouts folder.

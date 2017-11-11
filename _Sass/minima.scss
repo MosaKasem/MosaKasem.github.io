@@ -42,11 +42,12 @@ $on-laptop:        800px !default;
 }
 $size-xsmall: 2px;
 $translucent-white: rgba(255, 255, 255, 0.205);
+$translucent-white1: rgba(27, 51, 0, 0.205);
 $colorForText: #c2c2c2;
 $border-style: 1px solid rgba(0, 126, 112, 0.401);
 $my-font-stack: Helvetica, sans-serif;
 p {
-  color: #191919bf;
+  color: #191919cc;
 }
 h3 {
   text-align: center;
@@ -54,7 +55,7 @@ h3 {
   margin-right: 0 auto;
   background-color: $translucent-white;
   font-family: $my-font-stack;
-  color: rgba(41, 0, 0, 0.507);
+  color: rgba(0, 3, 41, 0.87);
 }
 h1 {
   text-align: center;
@@ -62,7 +63,7 @@ h1 {
   margin-right: 0 auto;
   background-color: $translucent-white;
   font-family: $my-font-stack;
-  color: rgba(41, 0, 0, 0.507);
+  color: rgba(0, 110, 92, 0.507);
 }
 .banner {
   font-family: 'Pacifico', cursive;

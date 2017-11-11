@@ -10,8 +10,11 @@ categories: jekyll update
 2. Which techniques did you use?
 3. Pros and cons?
 
-**1a.** It's exactly the same as css, only you store values in a variable that starts with the dollar sign, and you link those variables to multiple css codes of your choice.
+**1a.** It's exactly the same as css, only you store values in a variable that starts with the dollar sign, and you link those variables to multiple css codes of your choice, easier to maintain in the long run.
 
 **2a.** border, background, color (may have changed some due to error)
 
-**3a.** 
+**3a.** __Cons__: More code, __pros:__ cleaner ui, coming from css, i found inlines to be much easier to understand, like this example `body {color: red;}`.
+
+
+

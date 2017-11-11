@@ -7,19 +7,20 @@ categories: jekyll update
 
 ### What is humans.txt and how have you configure it for your site?
 
-
+It's an initiative for knowing the people behind a website. It's a TXT file that contains information about the different people who have contributed to building the website.
 
 **What to put in it**
 
-
-__The "/robots.txt" file is a text file, with one or more records. Usually contains a single record looking like this:__
+You can mention the developer, the designer, the copywriter, the webmaster, the SEO, SEM or SMO...
 
 {% highlight ruby %}
 
+Your title: Your name.
+
+                            
+Site: email, link to a contact form, etc.
+
+                            
+Twitter: your Twitter username.   
+#=> more can included more, this is just an example.
 {% endhighlight %}
-
-In this example, three directories are excluded.
-
-**Dont forget**
-
-Use all lower case for the filename: "robots.txt", not "Robots.TXT. 
