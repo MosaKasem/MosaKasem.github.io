@@ -6,10 +6,10 @@ categories: jekyll update
 ---
 # What do you think of static site generators?
 
-What I think of static site generators, they're good for simple use.
+It's like ordering Cheesecake at McDonald but you end up with half sliced riceburger.
 
-However, after going through all the trouble of setting it up, and the constantly running into problems while I was trying getting it to run, the end wasn't worth the bite, there are programs that offer similiar functionality as jekyll, why's this one so special? it's complicated, and the document available on the internet is not enough to cover the basics. This is too much for beginners like myself. Scss is completion to css, static site generators are not!
+It's a finished product, it works when it wants to, a bit annoying setting it up, and more annoying learning its basics, I wish this had value, like for instance Scss is completion to css, static site generators are not! this "MD" is same setup as html only you use special characters here instead of elements like `<h1>` you end up with having to use `#` which is unncessary, but I guess thats the whole point of using jekyll, fast food service.
 
-* What type of projects are they suitable for?
+* __What type of projects are they suitable for?__
 
-Blogging, but keep in mind, it can be a football fan blog, maybe news blogg for a community or personal blogg, thats my personal opinion, there is no information on google for what they are specifically used for.
+I would have to go with blogging, but mind you, football fan blogg, maybe news blogg for a community/group or personal blogg, thats my personal opinion.

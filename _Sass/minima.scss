@@ -44,6 +44,9 @@ $on-laptop:        800px !default;
 .page-content {
   @include background("./img/background.jpg")
 }
+.page-link, .site-title {
+  color: white;
+}
 $flashy-image: url("./img/side.jpg");
 $transparent-backgruound: rgba(255, 255, 255, 0.493);
 $size-border-all: 5px solid black;
@@ -53,7 +56,7 @@ $translucent-white1: rgba(27, 51, 0, 0.205);
 $colorForText: #c2c2c2;
 $border-style: 1px solid rgba(0, 126, 112, 0.401);
 $my-font-stack: Helvetica, sans-serif;
-p {
+p, .highlight {
   text-align: left;
 }
 .home {
@@ -62,7 +65,7 @@ p {
   border-radius: 25px;
   border: white;
   border-width: 2px;
-  border-style: solid;
+  border-style: dashed;
   background-image: $flashy-image;
   background-position: right;
 }
@@ -78,8 +81,22 @@ a:hover {
   font-family:arial;
   font-weight:bold;
 }
+a {
+  color: rgb(126, 126, 126);
+  &:visited {
+    color: rgb(192, 192, 192);
+  }
+  &:hover {
+    color: #fff;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 0px #505050;
+  }
+}
 .post-list nav, ul, li {
   display: block;
+}
+.site-header {
+  background-color: rgb(32, 32, 32);
 }
 .post {
   background-color: $transparent-backgruound;
@@ -97,14 +114,17 @@ a:hover {
   border: white;
   border-width: 2px;
   border-style: solid;
-  padding: 20px;
-  margin: 20px;
+  padding: 25px;
+  margin: 25px;
   text-align: center;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
 }
-p {
+.post-content {
   color: #191919cc;
+  background-color: $transparent-backgruound;
+  padding: 10px;
+  border: white;
+  border-width: 2px;
+  border-style: solid;
 }
 h3 {
   text-align: center;
@@ -115,41 +135,17 @@ h3 {
 }
 .home h1 {
   text-align: center;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
   font-family: $my-font-stack;
   color: white;
+}
+.page-heading {
+  display: inherit;
 }
 h1 {
   text-align: center;
   margin-left: 0 auto;
   margin-right: 0 auto;
   font-family: $my-font-stack;
-}
-.banner {
-  font-family: 'Pacifico', cursive;
-  height: 400px;
-  text-align: center;
-  border : {
-    top: $size-border-all;
-    bottom: $size-border-all;
-	}
-  
-  .slogan {
-    background-color: $translucent-white;
-  	position: absolute;
-  	border: $size-border-all;
-  	top: 200px;
-  	left: 25%;
-  	width: 50%;
-    height: 200px;
-    margin-top: 150px;
-    
-    span {
-      text-align: center;
-  		line-height: 50px;
-		}
-	}
 }
 cite {
   color: $colorForText;

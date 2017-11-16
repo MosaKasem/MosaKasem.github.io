@@ -7,14 +7,26 @@ categories: jekyll update
 
 ### How did you implements comments to blog posts
 
-*I did the following steps:*
+##### *I did the following steps:*
 
-1. __Opened browser__
-2. Wrote In The Address; Disqus.com
-3. __Logged in my google account__
-4. Opted to install
-5. __Opted jekyll__
-6. Got the code
-7. __Pasted it in post.html__
+1 __Opened browser__ -
+
+
+2 Wrote In The Address; Disqus.com -
+
+
+3 __Logged in my google account__ -
+
+
+4 Opted to install -
+
+
+5 __Opted jekyll__ -
+
+
+6 Got the code -
+
+
+7 __Pasted it in post.html__
 
 HEY! leave a comment down below!

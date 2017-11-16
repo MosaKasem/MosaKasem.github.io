@@ -13,6 +13,7 @@ It's an initiative for knowing the people behind a website. It's a TXT file that
 
 You can mention the developer, the designer, the copywriter, the webmaster, the SEO, SEM or SMO...
 
+This is an example:
 {% highlight ruby %}
 
 Your title: Your name.

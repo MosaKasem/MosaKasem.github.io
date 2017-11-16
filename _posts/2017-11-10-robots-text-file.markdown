@@ -23,6 +23,7 @@ Disallow: /~joe/
 {% endhighlight %}
 
 In this example, three directories are excluded.
+It's possibly to specify which search engines are allowed/disallowed to index.
 
 **Dont forget**
 
