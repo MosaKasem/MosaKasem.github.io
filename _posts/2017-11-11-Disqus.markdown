@@ -7,12 +7,14 @@ categories: jekyll update
 
 ### How did you implements comments to blog posts
 
-1. Opened browser
-2. Address Disqus.com
-3. Logged in
-4. Opted install
-5. Opted jekyll
-6. Got the code
-7. Pasted it in post.html
+*I did the following steps:*
 
-The most irritating thing which is neither mentioned on google or jekyll DOCS, is in order to have this on every page, one had to copy and paste the post.html file from _layouts folder.
+1. __Opened browser__
+2. Wrote In The Address; Disqus.com
+3. __Logged in my google account__
+4. Opted to install
+5. __Opted jekyll__
+6. Got the code
+7. __Pasted it in post.html__
+
+HEY! leave a comment down below!

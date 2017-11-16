@@ -13,7 +13,7 @@ There's a pattern that these search engines follows, and you can create certain 
 **What to put in it**
 
 
-__The "/robots.txt" file is a text file, with one or more records. Usually contains a single record looking like this:__
+The "/robots.txt" file is a text file, with one or more records. Usually contains a single record looking like this:
 
 {% highlight ruby %}
 User-agent: *
@@ -26,4 +26,4 @@ In this example, three directories are excluded.
 
 **Dont forget**
 
-Use all lower case for the filename: "robots.txt", not "Robots.TXT. 
+Use all lower case for the filename: "robots.txt", not "Robots.TXT.
