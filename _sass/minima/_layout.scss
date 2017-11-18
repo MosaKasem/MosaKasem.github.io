@@ -118,7 +118,6 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -189,7 +188,7 @@
 .post-meta {
   display: block;
   font-size: $small-font-size;
-  color: rgb(51, 51, 51);
+  color: rgb(185, 185, 185);
 }
 
 .post-link {

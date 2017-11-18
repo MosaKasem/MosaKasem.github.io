@@ -33,13 +33,26 @@ $on-laptop:        800px !default;
 // }
 
 //my code
-
 @mixin background($imgpath,$position:0 0,$repeat: no-repeat) {
   background: {
       image: url($imgpath);
       position: $position;
       repeat: $repeat;
   }
+}
+.site-title {
+  display: block;
+  text-decoration: none;
+}
+.site-footer, .site-header {
+  @include background("./img/footer1.gif")
+}
+.footer-col-2 a .site-title {
+  background-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  border:white;
+  color: white;
 }
 .page-content {
   @include background("./img/background.jpg")
@@ -65,7 +78,7 @@ p, .highlight {
   border-radius: 25px;
   border: white;
   border-width: 2px;
-  border-style: dashed;
+  border-style: solid;
   background-image: $flashy-image;
   background-position: right;
 }
@@ -82,14 +95,18 @@ a:hover {
   font-weight:bold;
 }
 a {
-  color: rgb(126, 126, 126);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
   &:visited {
-    color: rgb(192, 192, 192);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
   }
   &:hover {
-    color: #fff;
+    color: rgb(255, 0, 0);
+    box-shadow: 4px 4px 0px #000000;
     background-color: rgb(255, 255, 255);
-    box-shadow: 5px 5px 0px #505050;
+    border-radius: 5px;
+    text-decoration: none;
   }
 }
 .post-list nav, ul, li {
@@ -109,7 +126,7 @@ a {
   text-align: center;
 }
 .post-list {
-  background-color: $transparent-backgruound;
+  background-image: url("./img/background-inside.jpg");
   border-radius: 25px;
   border: white;
   border-width: 2px;
